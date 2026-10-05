@@ -2,6 +2,7 @@ Project Overview
 
 ```📌 Project Overview
 The system models a secure smart home environment using IoT devices connected through a centralized network. It includes automated physical security components such as motion sensors, smart doors, alarms, and remote monitoring interfaces. The project highlights how IoT devices can enhance safety, visibility, and automation within a home network.
+
 🔐 Key Features
 - IoT based physical security (motion sensors, smart door locks, alarms)
 - Remote monitoring and control through Packet Tracer’s IoT server/dashboard
@@ -9,6 +10,7 @@ The system models a secure smart home environment using IoT devices connected th
 - Secure network segmentation for IoT devices
 - Basic access control and device authentication
 - Event driven alerts and responses (e.g., alarm activation on intrusion)
+
 🧱 Architecture Components
 - Smart Home Gateway
 - Motion & Door Sensors
@@ -17,15 +19,18 @@ The system models a secure smart home environment using IoT devices connected th
 - IoT Registration Server
 - Home Wireless Router & Switch
 - Remote Monitoring Dashboard
+
 🛠️ Tools & Technologies
 - Cisco Packet Tracer (IoT simulation, network design)
 - IoT device configuration (sensors, actuators, automation rules)
 - Basic network security controls (segmentation, authentication)
+
 🎯 Learning Objectives
 - Understand how IoT devices integrate into secure home networks
 - Explore physical security automation using sensors and triggers
 - Practice designing and configuring IoT systems in Packet Tracer
 - Demonstrate foundational knowledge of IoT security concepts
+
 📂 Repository Contents
 - .pkt simulation file
 - Network topology diagram
@@ -36,4 +41,32 @@ The system models a secure smart home environment using IoT devices connected th
 - Implement multi factor access control
 - Expand automation rules for advanced threat detection
 - Integrate cloud-based monitoring concepts
+```
+```
+                     ┌──────────────────────────┐
+                     │      IoT Server          │
+                     │  - Device Registry       │
+                     │  - Remote Monitoring     │
+                     │  - Automation Rules      │
+                     └───────────┬──────────────┘
+                                 │
+                                 │ (LAN Connection)
+                                 │
+        ┌────────────────────────┴────────────────────────┐
+        │                     Wireless Router             │
+        │   - WPA2‑PSK Security                           │
+        │   - MAC Allow‑List                              │
+        │   - DHCP IP Assignment                          │
+        └───────────┬──────────────┬──────────────┬──────┘
+                    │              │              │
+                    │              │              │
+         (Wi‑Fi)    │    (Wi‑Fi)   │    (Wi‑Fi)   │    (Wi‑Fi)
+                    │              │              │
+        ┌───────────┘   ┌──────────┘   ┌──────────┘   ┌──────────┐
+        │ Smart Door     │ Motion Sensor│   Siren       │  Webcam  │
+        │ - Lock/Unlock  │ - Detects    │ - Alarm       │ - Visual │
+        │ - Access Ctrl  │   Movement   │   Response    │   Feed   │
+        └───────────────┘ └────────────┘ └─────────────┘ └────────┘
+
+
 ```
