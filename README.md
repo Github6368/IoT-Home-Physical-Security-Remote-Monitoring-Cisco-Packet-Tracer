@@ -5,7 +5,7 @@ The system models a secure smart home environment using IoT devices connected th
 - Remote monitoring and control through Packet Tracer’s IoT server/dashboard
 - Automated security workflows triggered by sensor activity
 - Secure network segmentation for IoT devices
-* Basic access control and device authentication
+** Basic access control and device authentication
 •	Event driven alerts and responses (e.g., alarm activation on intrusion)
 🧱 Architecture Components
 •	Smart Home Gateway
