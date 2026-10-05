@@ -1,8 +1,8 @@
 ```📌 Project Overview
 The system models a secure smart home environment using IoT devices connected through a centralized network. It includes automated physical security components such as motion sensors, smart doors, alarms, and remote monitoring interfaces. The project highlights how IoT devices can enhance safety, visibility, and automation within a home network.
 🔐 Key Features
-•	IoT based physical security (motion sensors, smart door locks, alarms)
-•	Remote monitoring and control through Packet Tracer’s IoT server/dashboard
+- IoT based physical security (motion sensors, smart door locks, alarms)
+- Remote monitoring and control through Packet Tracer’s IoT server/dashboard
 •	Automated security workflows triggered by sensor activity
 •	Secure network segmentation for IoT devices
 •	Basic access control and device authentication
