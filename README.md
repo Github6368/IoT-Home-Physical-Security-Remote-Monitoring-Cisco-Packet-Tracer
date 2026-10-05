@@ -1,4 +1,4 @@
-**Project Overview
+Project Overview
 
 ```📌 Project Overview
 The system models a secure smart home environment using IoT devices connected through a centralized network. It includes automated physical security components such as motion sensors, smart doors, alarms, and remote monitoring interfaces. The project highlights how IoT devices can enhance safety, visibility, and automation within a home network.
